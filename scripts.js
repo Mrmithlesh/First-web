@@ -1,40 +1,46 @@
-let searchFrom = document.querySelector('.search-from');
-
-document.querySelector('#search-btn').onclick = () => {
-  searchFrom.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  loginFrom.classList.remove('active');
-  navbar.classList.remove('active');
-}
-
+let searchForm = document.querySelector('.search-form');
 let shoppingCart = document.querySelector('.shopping-cart');
-document.querySelector('#cart-btn').onclick = () => {
-  shoppingCart.classList.toggle('active');
-  searchFrom.classList.remove('active');
-  loginFrom.classList.remove('active');
-  navbar.classList.remove('active');
-}
-
 let loginFrom = document.querySelector('.login-from');
-document.querySelector('#login-btn').onclick = () => {
-  loginFrom.classList.toggle('active');
-  searchFrom.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  navbar.classList.remove('active');
-}
 let navbar = document.querySelector('.navbar');
-document.querySelector('#menu-btn').onclick = () => {
-  navbar.classList.toggle('active');
-  searchFrom.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  loginFrom.classList.remove('active');
+
+// Search
+document.querySelector('#search-btn').onclick = () => {
+    searchForm.classList.toggle('active');
+    shoppingCart.classList.remove('active');
+    loginFrom.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
+// Cart
+document.querySelector('#cart-btn').onclick = () => {
+    shoppingCart.classList.toggle('active');
+    searchForm.classList.remove('active');
+    loginFrom.classList.remove('active');
+    navbar.classList.remove('active');
+}
+
+// Login
+document.querySelector('#login-btn').onclick = () => {
+    loginFrom.classList.toggle('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    navbar.classList.remove('active');
+}
+
+// Menu
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    loginFrom.classList.remove('active');
+}
+
+// Scroll
 window.onscroll = () => {
-  searchFrom.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  loginFrom.classList.remove('active');
-  navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    loginFrom.classList.remove('active');
+    navbar.classList.remove('active');
 }
 
 var swiper = new Swiper(".product-slider", {
