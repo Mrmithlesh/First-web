@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocerey</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+
+
+    <header class="header">
+        <a href="#" class="logo"><i class="bi bi-basket2"></i>Grocerey</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categorise">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="bi bi-list" id="menu-btn"></div>
+            <div class="bi bi-search" id="search-btn"></div>
+            <div class="bi bi-cart-check" id="cart-btn"></div>
+            <div class="bi bi-person-fill" id="login-btn"></div>
+        </div>
+        <!--<form action="" class="search-from">  
+            <input  type="search"  id="search-box" placeholder="Enter your products" >
+            <label  for="search-box"><i class="bi bi-search"></i></label> 
+        </form>
+        -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="bi bi-trash3"></i>
+                <img src="Image/watermelon.jpeg" alt="">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quqntity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-trash3"></i>
+                <img src="Image/onion.jpeg" alt="">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quqntity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bi bi-trash3"></i>
+                <img src="Image/chiken.jpeg" alt="">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quqntity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $19.69/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-from">
+            <h3>Login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forget your password <a href="#">Click here</a></p>
+            <p>don't have an account <a href="#">Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+
+        </form>
+    </header>
+    <!--header section end-->
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh And<span>Organic</span>Products for your</h3>
+            <p>Lorem ispsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum venium faccere tempore
+                nisi.</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--feature start-->
+
+    <section class="features" id="features">
+        <h1 class="heading">Our<span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="Image/fresh.jpeg" alt="">
+                <h3>fresh and organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptates.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="Image/free.jpeg" alt="">
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptates.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="Image/easy pay.jpeg" alt="">
+                <h3>easy payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptates.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--feature end-->
+    <!--products starts-->
+
+    <section class="products" id="products">
+        <h1 class="heading">Our<span>Products</span></h1>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Image/pro1.jpeg" alt="">
+                    <h3> Fresh Lemon</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro2.jpeg" alt="">
+                    <h3>Onion</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro3.jpeg" alt="">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro4.jpeg" alt="">
+                    <h3>Fresh carrot</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro5.jpeg" alt="">
+                    <h3>fresh Lemon</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Image/pro6.jpeg" alt="">
+                    <h3>fresh patato</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro7.jpeg" alt="">
+                    <h3>Fresh Avocado</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/pro4.jpeg" alt="">
+                    <h3> carrot</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p4.jpeg" alt="">
+                    <h3>fortune oil</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p5.jpeg" alt="">
+                    <h3> mixed vegatible</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+             </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Image/p1.avif" alt="">
+                    <h3>Amul Taza Milk</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p2.avif" alt="">
+                    <h3>Amul Butter</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p3.avif" alt="">
+                    <h3>Amul Cow Milk</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p4.avif" alt="">
+                    <h3>Amul Masti Curd</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p5.avif" alt="">
+                    <h3>Amul Butter</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+             </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Image/p6.avif" alt="">
+                    <h3>Amul Masti Curd</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p7.avif" alt="">
+                    <h3>BranO Asli Makhan Milk Bread</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p8.avif" alt="">
+                    <h3>Amul Pouch Curd</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p9.avif" alt="">
+                    <h3>Amul Meetha Curd</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/p10.avif" alt="">
+                    <h3>Good Morning Bread</h3>
+                    <div class="price">$4.99/- 10.99/- </div>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--products ends-->
+
+    <!--categorise start-->
+
+    <section class="categorise" id="categorise">
+        <h1 class="heading">Products<span>categorise</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Image/cat1.jpeg" alt="">
+                <h3>vegitable</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/cat2.png" alt="">
+                <h3>fresh fruits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/cat3.webp" alt="">
+                <h3>dairy products</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p6.avif" alt="">
+                <h3>Amul Masti Cup Curd</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p7.avif" alt="">
+                <h3>Gyan Full cream Milk</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p8.avif" alt="">
+                <h3>Amul Pouch Curd</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p9.avif" alt="">
+                <h3>Amul Meetha Curd</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p10.avif" alt="">
+                <h3>Good Morning Bread</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p5.avif" alt="">
+                <h3>Amul Butter</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p4.avif" alt="">
+                <h3>Amul Masti Curd</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p3.avif" alt="">
+                <h3>Amul Cow Milk</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p2.avif" alt="">
+                <h3>Family Makhan Malai Bread</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p1.avif" alt="">
+                <h3>Amul Milk</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+                        <div class="box">
+                <img src="Image/p10.avif" alt="">
+                <h3>Good Morning Bread</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p5.avif" alt="">
+                <h3>Amul Butter</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="Image/p4.avif" alt="">
+                <h3>Amul Masti Curd</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+        </div>
+    </section>
+    <!--categorise end-->
+
+    <!--review start-->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Image/re1.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re2.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re3.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re4.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re5.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re1.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re2.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Image/re3.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum,
+                        harum nulla cupiditate reiciendis repellat in unde ea ut atque.</p>
+                    <h3>johan deo</h3>
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!--review end-->
+
+
+    <!--blogs start-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our<span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Image/blog1.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-people-fill"></i>by user</a>
+                        <a href="#"><i class="bi bi-calendar-date-fill"></i>10july, 2026</a>
+                    </div>
+                    <h3>fresh and organic vegatible and fruits</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/blog2.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-people-fill"></i>by user</a>
+                        <a href="#"><i class="bi bi-calendar-date-fill"></i>10july, 2026</a>
+                    </div>
+                    <h3>fresh and organic vegatible and fruits</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Image/blog3.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-people-fill"></i>by user</a>
+                        <a href="#"><i class="bi bi-calendar-date-fill"></i>10july, 2026</a>
+                    </div>
+                    <h3>fresh and organic vegatible and fruits</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--blogs end-->
+
+    <!--footer start-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Groco<i class="bi bi-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, error!</p>
+                <div class="share">
+                    <a href="#" class="bi bi-facebook"></a>
+                    <a href="#" class="bi bi-twitter"></a>
+                    <a href="#" class="bi bi-instagram"></a>
+                    <a href="#" class="bi bi-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#" class="links"><i class="bi bi-telephone-outbound"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="bi bi-telephone-outbound"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="bi bi-envelope"></i>mithlesh@gmail.com</a>
+                <a href="#" class="links"><i class="bi bi-geo-alt-fill"></i>Lucknow, india - 400104</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>home</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>features</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>products</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>Categories</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>review</a>
+                <a href="#" class="links"><i class="bi bi-arrow-right-square-fill"></i>blogs</a>
+            </div>
+            <div class="box">
+                <h3>newslwtters</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="Image/card1.png" alt="">
+            </div>
+            <div class="credit">created by <span>mr.mithlesh designer</span>| all rights</div>
+    </section>
+    <!--footer end-->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
